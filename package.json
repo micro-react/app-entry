@@ -29,6 +29,7 @@
     "webpack-merge": "^5.1.2"
   },
   "dependencies": {
+    "async-loader": "git+ssh://git@github.com:micro-react/async-loader.git",
     "global-config": "git+ssh://git@github.com:micro-react/global-config.git",
     "react": "17.0.0-rc.0",
     "react-dom": "17.0.0-rc.0"

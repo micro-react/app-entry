@@ -16,6 +16,7 @@ const externals = Object.assign({}, ...externalsArr);
 
 module.exports = webpackMerge({
   mode: 'development',
+  target: 'node',
   entry: './src/index.tsx',
   output: {
     path: path.resolve(__dirname, 'dist'),
